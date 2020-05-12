@@ -17,3 +17,11 @@ How to use
 2. Right click on the channel you want to target and click "Copy ID"
 3. Enter the bot's DMs and type ```fp!send <channel id> <pokédex #>``` or ```fp!send <channel id>``` for a random Pokémon
 
+---
+
+Example
+
+
+<img src="https://i.imgur.com/0LR11k4.png" alt="drawing" width="400"/>
+<img src="https://i.imgur.com/M9YIosj.png" alt="drawing" width="400"/>
+
