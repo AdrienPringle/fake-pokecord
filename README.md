@@ -15,5 +15,5 @@ How to use
 
 1. Add the bot to your server using the above link
 2. Right click on the channel you want to target and click "Copy ID"
-3. Enter the bot's DMs and type ```fp!send <channel id>```
+3. Enter the bot's DMs and type ```fp!send <channel id> <pokédex #>``` or ```fp!send <channel id>``` for a random Pokémon
 
