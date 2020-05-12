@@ -1,8 +1,10 @@
 # fake-pokecord
-![](https://imgur.com/a/ZouzDmJ)
+
+<img src="https://i.imgur.com/BI9GlbJ.png" alt="drawing" width="200"/>
+
 An imitation Pokécord to prank Pokécord users
 
-[Add to your Discord server](https://discord.com/api/oauth2/authorize?client_id=641125454731804673&permissions=8&scope=bot)
+<h3> <a href="https://discord.com/api/oauth2/authorize?client_id=641125454731804673&permissions=8&scope=bot">Add to your Discord server</a> </h3>
 
 How to use
 
