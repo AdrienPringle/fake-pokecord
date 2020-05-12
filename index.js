@@ -17,7 +17,10 @@ bot.on('message', (msg) => {
         msg.channel.send("send a fake pokemon using: `fp!send <channel id>`")
     }else if (items[0] == 'fp!send'){
         bot.channels.fetch(items[1])
-            .then(channel => channel.send(createEmbed(items[2])))
+            .then(channel => {
+                channel.send(createEmbed(items[2]))
+                msg.channel.send("Pokémon successfully sent!")
+            })
             .catch(console.error);
     }
 })
@@ -28,7 +31,6 @@ function createEmbed(id){
     if (id == undefined){
         id = Math.floor(Math.random() * 721) + 1 
     }
-    console.log(id)
     return new Discord.MessageEmbed()
         .setColor('#00ae86')
         .setTitle('‌‌A wild pokémon has аppeаred!')
