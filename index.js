@@ -23,6 +23,22 @@ bot.on('message', (msg) => {
             })
             .catch(console.error);
     }
+    else if (items[0] == 'fp!w'){
+        bot.channels.fetch(items[1])
+            .then(channel => {
+                channel.send("This is the wrong pokémon!")
+                msg.channel.send("wrong pokémon message successfully sent!")
+            })
+            .catch(console.error);
+    }
+    else if (items[0] == 'fp!aha'){
+        bot.channels.fetch(items[1])
+            .then(channel => {
+                channel.send("AHA \n I win \n you LOSE")
+                msg.channel.send("AHA message successfully sent!")
+            })
+            .catch(console.error);
+    }
 })
 
 bot.login(token)
