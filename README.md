@@ -11,6 +11,10 @@
 
 ---
 
+### The real Pokécord has been shut down so this bot is basically useless now :( I might make a similar bot if a popular replacement pops up.
+
+---
+
 How to use
 
 1. Add the bot to your server using the above link
